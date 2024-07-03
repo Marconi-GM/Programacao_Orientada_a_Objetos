@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./detalhesMidia.css">
+    <link rel="stylesheet" href="../../main.css">
+    <title>Projeto Final</title>
+</head>
+<body>
+    <nav class="navbar">
+
+        <h1 class="navbar__logo">
+            <a href="/">QuintaEstrela</a>
+        </h1>
+
+        <div class="navbar__menu">
+            <a class="navbar__link" href="/src/view/home/home.html?nome=Celso">Voltar</a>
+        </div>
+
+    </nav>
+
+    <main class="main-content">
+        <div class="loading" id="loading">
+            <h1 class="loading__logo">
+                <a href="/">QuintaEstrela</a>
+            </h1>
+        </div>
+        <div class="main-content__banner-midia" id="banner">
+            <div class="dark-gradient"></div>
+        </div>
+        <div class="main-content__cards">
+            <div class="card__midia-informations card" id="card01"></div>
+            <div class="card__midia-ratings">
+                <div class="ratings__card card" id="card02"></div>
+                <div class="ratings__card card">
+                    <h2 class="ratings__card-card__title"><b class="text--gradient-font-primary">F</b>aça sua avaliação</h2>
+
+                    <form>
+                        <div class="card__item background-gradient-primary">
+                            <input class="card__input" type="text" placeholder="Avaliação" name="rating" id="rating"/>
+                        </div>
+                        
+                        <div class="card__item card__item--comment background-gradient-primary">
+                            <textarea class="card__input" rows="5" cols="33" maxlength="144" placeholder="Comentário" name="comment" id="comment"></textarea>
+                        </div>
+
+                        <div class="card__button background-gradient-primary" id="submitButton">
+                            Enviar
+                        </div>
+                    </form>
+                </div>
+                <div class="ratings__card card" id="card03"></div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__detail"></div>
+        <div class="footer__informations">
+            <div class="information-project">
+                <h1 class="information-logo">QuintaEstrela</h1>
+                <p class="information-description">Site de avaliações de filmes implementado Orientado a Objetos, desenvolvido como projeto final do curso de Programação Orientada a Objetos, do Bacharelado em Ciência da Computação na Universidade Estadual de Campinas - UNICAMP</p>
+            </div>
+            <div class="information-developers">
+                <h4 class="information-title">Desenvolvedores</h4>
+                <p class="information-text">Celso Gabriel F. M. Prado <br> Chris Araujo Felipe Souza <br> Guilherme Marconi Mugnai <br> Vitor F. dos Santos Lacerda</p>
+            </div>
+            <div class="information-tools">
+                <h4 class="information-title">Usados no desenvolvimento</h4>
+                <p class="information-text">Draw.io <br> Figma <br> TypeScript <br> Keen-Slider</p>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="/dist/view/detalhesMidia/detalhesMidia.js"></script>
+</body>
+</html>

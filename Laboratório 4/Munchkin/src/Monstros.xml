@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Monstros>
+    <Monstro>
+        <nome>Org</nome>
+        <poder>350</poder>
+        <tesouros>300</tesouros>
+        <niveisPerdidos>20</niveisPerdidos>
+    </Monstro>
+
+    <Monstro>
+        <nome>Harpia</nome>
+        <poder>120</poder>
+        <tesouros>100</tesouros>
+        <niveisPerdidos>10</niveisPerdidos>
+    </Monstro>
+
+    <Monstro>
+        <nome>Aranha</nome>
+        <poder>50</poder>
+        <tesouros>20</tesouros>
+        <niveisPerdidos>12</niveisPerdidos>
+    </Monstro>
+
+    <Monstro>
+        <nome>Escorpiao</nome>
+        <poder>100</poder>
+        <tesouros>175</tesouros>
+        <niveisPerdidos>50</niveisPerdidos>
+    </Monstro>
+
+    <Monstro>
+        <nome>Gerson</nome>
+        <poder>99999</poder>
+        <tesouros>9999</tesouros>
+        <niveisPerdidos>9999</niveisPerdidos>
+    </Monstro>
+</Monstros>

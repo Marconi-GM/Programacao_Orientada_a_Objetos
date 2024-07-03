@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Itens>
+    <Item>
+        <nome>Canivete</nome>
+        <bonusPoder>10</bonusPoder>
+        <valor>15</valor>
+        <tipo>MAO</tipo>
+        <itemGrande>false</itemGrande>
+        <classesCompativeis>
+            <classe>LADRAO</classe>
+            <classe>GUERREIRO</classe>
+        </classesCompativeis>
+        <racasCompativeis> 
+            <raca>HUMANO</raca>
+            <raca>ANAO</raca>
+        </racasCompativeis>
+    </Item>
+
+    <Item>
+        <nome>Arco e Flecha</nome>
+        <bonusPoder>100</bonusPoder>
+        <valor>300</valor>
+        <tipo>MAO</tipo>
+        <itemGrande>true</itemGrande>
+        <classesCompativeis>
+            <classe>MAGO</classe>
+            <classe>GUERREIRO</classe>
+        </classesCompativeis>
+        <racasCompativeis> 
+            <raca>HUMANO</raca>
+            <raca>ELFO</raca>
+        </racasCompativeis>
+    </Item>
+
+    <Item>
+        <nome>Machado</nome>
+        <bonusPoder>125</bonusPoder>
+        <valor>75</valor>
+        <tipo>MAO</tipo>
+        <itemGrande>true</itemGrande>
+        <classesCompativeis>
+            <classe>LADRAO</classe>
+            <classe>GUERREIRO</classe>
+        </classesCompativeis>
+        <racasCompativeis> 
+            <raca>HUMANO</raca>
+            <raca>ANAO</raca>
+        </racasCompativeis>
+    </Item>
+
+    <Item>
+        <nome>Elmo Alado</nome>
+        <bonusPoder>300</bonusPoder>
+        <valor>350</valor>
+        <tipo>CABECA</tipo>
+        <itemGrande>false</itemGrande>
+        <classesCompativeis>
+            <classe>MAGO</classe>
+            <classe>GUERREIRO</classe>
+        </classesCompativeis>
+        <racasCompativeis> 
+            <raca>HUMANO</raca>
+            <raca>ANAO</raca>
+            <raca>ELFO</raca>
+        </racasCompativeis>
+    </Item>
+
+    <Item>
+        <nome>Peitoral Encouracado</nome>
+        <bonusPoder>525</bonusPoder>
+        <valor>700</valor>
+        <tipo>CORPO</tipo>
+        <itemGrande>true</itemGrande>
+        <classesCompativeis>
+            <classe>MAGO</classe>
+            <classe>GUERREIRO</classe>
+            <classe>LADRAO</classe>
+        </classesCompativeis>
+        <racasCompativeis> 
+            <raca>HUMANO</raca>
+            <raca>ANAO</raca>
+            <raca>ELFO</raca>
+        </racasCompativeis>
+    </Item>
+
+    <Item>
+        <nome>Botas Sujas</nome>
+        <bonusPoder>50</bonusPoder>
+        <valor>60</valor>
+        <tipo>PE</tipo>
+        <itemGrande>false</itemGrande>
+        <classesCompativeis>
+            <classe>LADRAO</classe>
+            <classe>GUERREIRO</classe>
+        </classesCompativeis>
+        <racasCompativeis> 
+            <raca>HUMANO</raca>
+            <raca>ANAO</raca>
+            <raca>ELFO</raca>
+        </racasCompativeis>
+    </Item>
+
+    <Item>
+        <nome>Gibao</nome>
+        <bonusPoder>150</bonusPoder>
+        <valor>175</valor>
+        <tipo>CORPO</tipo>
+        <itemGrande>false</itemGrande>
+        <classesCompativeis>
+            <classe>LADRAO</classe>
+            <classe>GUERREIRO</classe>
+        </classesCompativeis>
+        <racasCompativeis> 
+            <raca>HUMANO</raca>
+            <raca>ANAO</raca>
+        </racasCompativeis>
+    </Item>
+
+</Itens>
